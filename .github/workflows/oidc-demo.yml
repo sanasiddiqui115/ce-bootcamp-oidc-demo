@@ -1,4 +1,4 @@
-name: Terraform Demo
+name: Terraform OIDC Demo
 
 on:
   push:
