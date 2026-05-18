@@ -1,0 +1,37 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+tfplan
+
+# Terraform lock file
+# Keep this if teaching reproducible provider versions
+# Remove the # below if you WANT to commit it
+# .terraform.lock.hcl
+
+# Environment files
+.env
+.env.*
+
+# IDE files
+.vscode/
+.idea/
