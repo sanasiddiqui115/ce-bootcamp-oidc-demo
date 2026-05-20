@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "demo" {
-  bucket = "ironhack-terraform-demo-applepie"
+  bucket = "ironhack-terraform-demo-apple"
 
   tags = {
     Name = "terraform-demo"
