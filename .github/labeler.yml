@@ -1,0 +1,16 @@
+infrastructure:
+  - "terraform/**/*"
+  - "environments/**/*"
+
+security:
+  - "**/iam.tf"
+  - "**/security_groups.tf"
+
+production:
+  - "environments/prod/**/*"
+
+documentation:
+  - "**/*.md"
+
+github-actions:
+  - ".github/workflows/**/*"
