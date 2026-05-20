@@ -1,16 +1,12 @@
 infrastructure:
-  - "terraform/**/*"
-  - "environments/**/*"
+  - "*.tf"
 
 security:
-  - "**/iam.tf"
-  - "**/security_groups.tf"
-
-production:
-  - "environments/prod/**/*"
-
-documentation:
-  - "**/*.md"
+  - "iam.tf"
+  - "security_groups.tf"
 
 github-actions:
-  - ".github/workflows/**/*"
+  - ".github/workflows/**"
+
+documentation:
+  - "*.md"
