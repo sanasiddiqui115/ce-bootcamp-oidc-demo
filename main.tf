@@ -21,3 +21,7 @@ resource "aws_s3_bucket" "demo" {
     Env  = "dev"
   }
 }
+
+output "bucket_name" {
+  value = aws_s3_bucket.demo.bucket
+}
