@@ -1,12 +1,16 @@
 infrastructure:
-  - "*.tf"
+  - changed-files:
+      - any-glob-to-any-file: "*.tf"
 
 security:
-  - "iam.tf"
-  - "security_groups.tf"
+  - changed-files:
+      - any-glob-to-any-file: "iam.tf"
+      - any-glob-to-any-file: "security_groups.tf"
 
 github-actions:
-  - ".github/workflows/**"
+  - changed-files:
+      - any-glob-to-any-file: ".github/workflows/**"
 
 documentation:
-  - "*.md"
+  - changed-files:
+      - any-glob-to-any-file: "*.md"
